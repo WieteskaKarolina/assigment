@@ -1,0 +1,24 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.10.8",
+    "@vue/apollo-composable": "^4.0.2",
+    "graphql": "^15.9.0",
+    "graphql-tag": "^2.12.6",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/compiler-sfc": "^3.0.0",
+    "terser-webpack-plugin": "^5.3.10",
+    "webpack": "^5.92.1"
+  }
+}
