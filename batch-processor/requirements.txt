@@ -1,0 +1,7 @@
+Flask
+Werkzeug
+graphql-core
+flask-graphql
+graphene
+graphql-relay
+flask_cors
