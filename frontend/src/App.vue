@@ -102,3 +102,85 @@
     },
   };
   </script>
+
+<style>
+  #app {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .batch {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .batch h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .batch ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .batch li {
+    margin-bottom: 5px;
+  }
+  
+  .errors {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+  }
+  
+  .errors h2 {
+    margin-bottom: 10px;
+  }
+  
+  .errors ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .errors li {
+    margin-bottom: 5px;
+  }
+  
+  .loading {
+    margin-top: 20px;
+    color: #007bff;
+  }
+  
+  </style>
